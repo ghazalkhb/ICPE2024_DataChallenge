@@ -37,10 +37,8 @@ clusters = kmeans.fit_predict(features_df)
 
 # Evaluate K-means clustering
 silhouette_avg = silhouette_score(features_df, clusters)
-inertia = kmeans.inertia_
 
 print(f"Silhouette Score: {silhouette_avg}")
-print(f"Inertia: {inertia}")
 
 
 
